@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    margin: 100px auto;
+    width: 23%;
+    padding: 23px;
+    border: 2px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+.image{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.category{
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.date{
+    font-weight: 500;
+    color: hsl(0, 0%, 7%);
+    margin: 15px 0px;
+}
+.card a{
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+    font-size: x-large;
+}
+.info{
+    color: hsl(0, 0%, 50%);
+    margin: 15px 0px;
+    line-height: 1.5;
+}
+.profile-info{
+    display: flex;
+    align-items: center;
+}
+.profile-info img{
+    width: 10%;
+}
+.profile-info p{
+    font-weight: 800;
+    margin-left: 15px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(0, 0%, 7%); }
+
+a:hover{
+ color: hsl(47, 88%, 63%);
+}
+.attribution a:hover{
+    color: blue;
+}
+.card:focus-within{
+    box-shadow: 15px 15px hsl(0, 0%, 7%);
+}
+@media (max-width:600px){
+    .card{
+        margin: 100px auto;
+        width: 70%;
+    }
+}
+
+
+
